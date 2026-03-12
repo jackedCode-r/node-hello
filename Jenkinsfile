@@ -45,7 +45,7 @@ pipeline {
                     """
 
                     sh """
-                    scp -r * $EC2_USER@$EC2_IP:$APP_DIR
+                    scp -r . $EC2_USER@$EC2_IP:$APP_DIR
                     """
 
                     sh """
