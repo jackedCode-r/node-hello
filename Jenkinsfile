@@ -2,13 +2,9 @@ pipeline {
     agent any
 
     environment {
-        EC2_IP = "13.234.239.202"
+        EC2_IP = "13.232.86.143"
         EC2_USER = "ubuntu"
         APP_DIR = "/home/ubuntu/node-app"
-    }
-
-    triggers {
-        githubPush()
     }
 
     stages {
