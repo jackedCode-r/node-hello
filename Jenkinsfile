@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        EC2_IP = "13.232.86.143"
+        EC2_IP = "13.233.162.132"
         EC2_USER = "ubuntu"
         APP_DIR = "/home/ubuntu/node-app"
     }
